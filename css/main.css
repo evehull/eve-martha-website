@@ -1,0 +1,13 @@
+
+    body {
+      text-align: center;
+      background: url("https://i.imgur.com/n3x1YPk.jpg");
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: courier;
+    }
+h1 {
+  font-size: 5em;
+  text-align: center;
+}
