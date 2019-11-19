@@ -1,7 +1,7 @@
 
     body {
       text-align: center;
-      background: url("https://imgur.com/a/SrDzl5Z");
+      background-image: url("https://imgur.com/a/r9zMUWw");
       background-size: cover;
       background-position: center;
       color: black;
@@ -10,4 +10,15 @@
 h1 {
   font-size: 5em;
   text-align: center;
+}
+
+ol {
+  font-size: 3em;
+  list-style:decimal;
+  text-align: left;
+
+}
+
+li {
+  transition: 0.6s ease;
 }
