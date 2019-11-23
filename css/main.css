@@ -1,24 +1,54 @@
 
     body {
       text-align: center;
-      background-image: url("https://imgur.com/a/r9zMUWw");
+      background: url("https://www.homerton.cam.ac.uk/sites/default/files/imce/misc/images/Alumni%20and%20Supporters.jpg");
       background-size: cover;
       background-position: center;
       color: black;
       font-family: courier;
     }
 h1 {
-  font-size: 5em;
+  font-size: 7em;
   text-align: center;
 }
 
 ol {
-  font-size: 3em;
-  list-style:decimal;
+  font-size: 1em;
   text-align: left;
+  color: white;
+  background-blend-mode: difference;
 
 }
 
-li {
-  transition: 0.6s ease;
+li:hover {
+  font-size: 1em;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navbar {
+  display: inline;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+p{
+  color: white;
 }
