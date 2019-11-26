@@ -1,7 +1,7 @@
 
     body {
       text-align: center;
-      background: url("https://www.homerton.cam.ac.uk/sites/default/files/imce/misc/images/Alumni%20and%20Supporters.jpg");
+      background: url("https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Cavendish_Building_of_Homerton_College_Cambridge%2C_May_2011.jpg");
       background-size: cover;
       background-position: center;
       color: black;
@@ -33,12 +33,19 @@ ul {
 
 ul.navbar {
   display: inline;
+
+
+}
+
+ul.navbar:hover {
+  opacity: 0.5;
 }
 
 a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: rgba(221, 221, 221, 0.7);
+
 }
 
 input{
@@ -49,6 +56,7 @@ input{
 
 }
 
+
 input(button) {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -58,6 +66,12 @@ input(button) {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
+
+}
+
+input(button):active {
+  transform: traslateY(5px);
 }
 
 p{
